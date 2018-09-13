@@ -1,5 +1,4 @@
-const Discord = require("discord.js")
-const client = new Discord.Client()
+
   client.on('message', message => {
     if (message.content.startsWith("رابط")) {
 
@@ -24,5 +23,4 @@ message.author.send(`**مدة الرابط : يـوم
 
 });
 
-client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
 
